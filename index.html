@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ceropegia Woodii🌱</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-weight: lighter;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        color: #25592a;
+        margin-top: 0;
+      }
+      h2 {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-weight: lighter;
+        border: 0.5px solid #25592a;
+        margin: auto 100px;
+        padding: 5px 10px;
+        font-size: 18px;
+        border-radius: 20px;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+        max-width: 60%;
+        border-radius: 200px;
+      }
+
+      p {
+        line-height: 1.5;
+        text-align: center;
+        font-family: "Lucida Sans";
+        font-size: 12px;
+      }
+      button {
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: #B6E9AE;
+        border: 1px solid #25592a;
+        color: #25592a;
+        font-size: 12px;
+        line-height: 22px;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+        box-shadow: 0px 5px 8px 0;
+      }
+      .linkRoutine {
+        font-size: 11px;
+        color: #25592a;
+        text-decoration: none;
+      }
+      .linkRoutine:hover {
+        text-decoration: underline;
+      }
+
+      button:hover {
+        color: beige;
+        background: #25592a;
+        cursor: pointer;
+      }
+      .footer {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+      }
+      .container {
+        max-width: 500px;
+        margin:0 auto;
+        padding: 5px;
+        background: rgba(174, 231, 165, 0.9) 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Plant Lover</h1>
+
+    <h2>Ceropegia Wooddii</h2>
+
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/357/original/wooddii.png?1646152591"
+      alt="CeropegiaWoodii"
+      width="400px"
+    />
+    <p>
+      Love will definitely be in the air with this charming, trailing semi-succulent vine.
+     <br>
+      Ceropegia Woodii has small heart shaped leaves, with a delightful green lace pattern, that grow in opposite pairs along a trailing vine.
+      The pinkish-purple undersides of the leaves and stems add a romantic hue.
+      Also known as String of Hearts, it is a perfect plant for hanging baskets. 
+      Is extremely easy to look after and very tolerant of neglect.
+      </p>
+
+    <p>
+      <a
+        href="https://planthiza.com/produto/ceropegia-woodii-string-of-hearts/"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="linkRoutine"
+        
+      >
+        Learn the Routine Maintenance
+      </a>
+    </p>
+    <button class="BuyButton">
+      Are you a Plant Lover? 🌱</button>
+    <p></p>
+    <div class="footer">This page was built by Patricia MDantas</div>
+  <script>   
+    function buy(){
+      let name = prompt ("What is your name?");
+      let plant = prompt ("How many plants do you have?");
+      if (plant <= 5) {alert ("Keep going, " + name + " , one plant at a time😊💚");} 
+       else {alert("COOL!!!  "  + name + ", You are a Plant Lover!💚🍀");}}
+     
+    let BuyButton = document.querySelector (".BuyButton");
+    BuyButton.addEventListener("click", buy);
+
+  </script>
+  </body>
+</html>
+</div> 
